@@ -36,7 +36,6 @@ export default function StackOverflowTable() {
   const { handleSortOrder, order, orderBy } = useHandleSortOrder();
 
   const sortedData = useSortedData({ data, isLoading, error });
-
   const paginatedData = usePaginatedData({ data: sortedData });
 
   return (

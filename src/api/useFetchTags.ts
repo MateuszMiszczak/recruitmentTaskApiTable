@@ -10,7 +10,7 @@ import {
 const BASE_URL = "https://api.stackexchange.com";
 const ENDPOINT_URL = "/2.3/tags?order=desc&sort=popular&site=stackoverflow";
 
-// Normally I would put this in .env file but in this case I need it here for API to get 10000 requests per day instead of 300.
+// Normally I would put this in .env file but in this case I need it here for API to get 10000 requests per day instead of 300. I registered for testing to get this key and I decided to keep it.
 const HIGHER_QUOTA_SECRET = "&key=JuyVsKzok6JGUx8d29vYoQ((";
 
 export const useFetchTags = () => {

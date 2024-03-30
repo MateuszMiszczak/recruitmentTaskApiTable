@@ -17,7 +17,6 @@ export const darkTheme = createTheme({
         root: {
           backgroundColor: "#0a0a0a",
           flexShrink: 0,
-          marginRight: 0,
         },
       },
     },
